@@ -1,0 +1,17 @@
+h1 {
+    animation: typed 3s steps(25);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Consolas, sans-serif;
+    border-right: 4px solid black;
+    width: 25ch;
+}
+
+@keyframes typed {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 25ch;
+    }
+}
